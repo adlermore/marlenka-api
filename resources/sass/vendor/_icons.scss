@@ -1,0 +1,128 @@
+//Icons variables
+
+$white-icon: invert(91%) sepia(78%) saturate(17%) hue-rotate(292deg)
+    brightness(108%) contrast(104%);
+
+// Primary color
+
+$primary-200-icon: invert(72%) sepia(51%) saturate(296%) hue-rotate(327deg)
+    brightness(102%) contrast(93%);
+
+$primary-400-icon: invert(70%) sepia(82%) saturate(1589%) hue-rotate(318deg)
+    brightness(94%) contrast(99%);
+
+$primary-500-icon: invert(54%) sepia(49%) saturate(4259%) hue-rotate(344deg)
+    brightness(98%) contrast(88%);
+
+$primary-600-icon: invert(47%) sepia(44%) saturate(5691%) hue-rotate(353deg)
+    brightness(96%) contrast(91%);
+
+$primary-800-icon: invert(11%) sepia(95%) saturate(4340%) hue-rotate(34deg) brightness(105%) contrast(88%);;
+
+// Blue
+$blue-100-icon: invert(81%) sepia(6%) saturate(286%) hue-rotate(178deg)
+    brightness(94%) contrast(90%);
+
+$blue-200-icon: invert(65%) sepia(25%) saturate(137%) hue-rotate(179deg)
+    brightness(93%) contrast(86%);
+
+$blue-300-icon: invert(46%) sepia(25%) saturate(303%) hue-rotate(177deg)
+    brightness(91%) contrast(84%);
+
+$blue-400-icon: invert(31%) sepia(19%) saturate(602%) hue-rotate(178deg)
+    brightness(99%) contrast(91%);
+
+$blue-500-icon: invert(16%) sepia(13%) saturate(2119%) hue-rotate(178deg)
+    brightness(94%) contrast(94%);
+
+$blue-900-icon: invert(7%) sepia(69%) saturate(338%) hue-rotate(180deg)
+    brightness(96%) contrast(101%);
+
+// Green
+$G200-icon: invert(62%) sepia(35%) saturate(587%) hue-rotate(67deg)
+    brightness(90%) contrast(86%);
+
+$green-200-icon: invert(94%) sepia(9%) saturate(1324%) hue-rotate(101deg)
+    brightness(88%) contrast(90%);
+
+$green-400-icon: invert(61%) sepia(15%) saturate(1557%) hue-rotate(118deg)
+    brightness(99%) contrast(88%);
+
+$green-500-icon: invert(38%) sepia(100%) saturate(2066%) hue-rotate(143deg)
+    brightness(98%) contrast(96%);
+
+$green-600-icon: invert(38%) sepia(95%) saturate(571%) hue-rotate(124deg)
+    brightness(97%) contrast(96%);
+
+$green-800-icon: invert(24%) sepia(42%) saturate(992%) hue-rotate(120deg)
+    brightness(101%) contrast(98%);
+
+// Gray
+$gray-300-icon: invert(80%) sepia(5%) saturate(154%) hue-rotate(175deg)
+    brightness(112%) contrast(86%);
+
+$gray-400-icon: invert(93%) sepia(4%) saturate(218%) hue-rotate(182deg)
+    brightness(87%) contrast(84%);
+
+$gray-900-icon: invert(11%) sepia(18%) saturate(437%) hue-rotate(209deg)
+    brightness(92%) contrast(93%);
+
+// Red
+$red-100-icon: invert(68%) sepia(14%) saturate(3200%) hue-rotate(311deg)
+    brightness(102%) contrast(95%);
+
+$red-200-icon: invert(44%) sepia(31%) saturate(1552%) hue-rotate(318deg)
+    brightness(97%) contrast(100%);
+
+$red-400-icon: invert(18%) sepia(47%) saturate(3648%) hue-rotate(345deg)
+    brightness(103%) contrast(102%);
+
+// Yellow
+$Y300-icon: invert(97%) sepia(40%) saturate(3786%) hue-rotate(317deg)
+    brightness(95%) contrast(101%);
+
+$Y400-icon: invert(71%) sepia(20%) saturate(2169%) hue-rotate(4deg)
+    brightness(88%) contrast(88%);
+
+// Blue
+$B200-icon: invert(30%) sepia(81%) saturate(970%) hue-rotate(217deg)
+    brightness(107%) contrast(97%);
+
+$B300-icon: invert(15%) sepia(77%) saturate(5103%) hue-rotate(248deg)
+    brightness(90%) contrast(95%);
+
+// arrow rotation
+
+.arrow-rotate-0 {
+    transform: rotate(0deg);
+}
+
+.arrow-rotate-90 {
+    transform: rotate(90deg);
+}
+
+.arrow-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.arrow-rotate-270 {
+    transform: rotate(270deg);
+}
+
+.dashboard-green-icon {
+    filter: $primary-500-icon;
+}
+
+.dashboard-white-icon {
+    filter: $white-icon;
+}
+
+.custom-blue-icon {
+    filter: $blue-300-icon;
+}
+.custom-blue-icon:hover {
+    filter: $blue-200-icon;
+}
+.custom-blue-icon:active {
+    filter: $gray-900-icon;
+}

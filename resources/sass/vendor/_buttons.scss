@@ -1,0 +1,206 @@
+.btn {
+    border-radius: 6px;
+    transition: all ease-out 300ms;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+
+    flex-shrink: 0;
+
+    &.primary {
+        background-color: $primary-500;
+        border-color: transparent;
+        color: #fff;
+        img {
+            filter: $white-icon;
+        }
+    }
+
+    &.primary:hover {
+        background-color: $primary-400;
+    }
+    &.primary:active {
+        background-color: $primary-800;
+    }
+    &.primary.disabled {
+        background-color: $gray-200;
+        color: $gray-400;
+        cursor: not-allowed;
+        img {
+            filter: $gray-400-icon;
+        }
+    }
+
+    &.secondary {
+        background-color: #fff;
+        border-color: $blue-400;
+        color: $blue-400;
+        img {
+            filter: $blue-400-icon;
+        }
+    }
+    &.secondary:hover {
+        border-color: $primary-400;
+        color: $primary-400;
+        img {
+            filter: $primary-400-icon;
+        }
+    }
+    &.secondary:active, &.secondary:focus {
+        background-color: $gray-200;
+        border-color: $primary-800;
+        color: $primary-800;
+        img {
+            filter: $primary-800-icon;
+        }
+    }
+    &.secondary.disabled {
+        background-color: $gray-200;
+        border-color: $gray-400;
+        color: $gray-400;
+        cursor: not-allowed;
+        img {
+            filter: $gray-400-icon;
+        }
+    }
+
+    &.minimal {
+        background-color: transparent;
+        border-color: transparent;
+        color: $blue-400;
+        img {
+            filter: $blue-400-icon;
+        }
+    }
+    &.minimal:hover, &.minimal.columns__dropdown-btn {
+        background-color: #fff;
+        color: $primary-400;
+        img {
+            filter: $primary-400-icon;
+        }
+    }
+    &.minimal:active {
+        background-color: $gray-200;
+        color: $primary-800;
+        img {
+            filter: $blue-400-icon;
+        }
+    }
+
+    &.minimal.disabled {
+        background-color: transparent;
+        color: $gray-400;
+        cursor: not-allowed;
+        img {
+            filter: $gray-400-icon;
+        }
+    }
+
+    &.icon-btn {
+        background-color: transparent;
+        border: transparent;
+    }
+
+    &.sm {
+        padding: 5px 16px;
+        height: 31px;
+    }
+
+    &.md {
+        padding: 7.5px 16px;
+        height: 36px;
+    }
+
+    &.lg {
+        padding: 13px 24px;
+        height: 47px;
+    }
+
+    &.onlyIconSm {
+        padding: 8px;
+    }
+
+    &.onlyIconMd {
+        padding: 11px;
+    }
+
+    &.onlyIconLg {
+        padding: 15px 16px;
+    }
+}
+
+.table-btn {
+    padding: 7.5px 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: $R200;
+    color: $R200;
+    img {
+        filter: $red-200-icon;
+    }
+
+    &:hover {
+        border-color: $R100;
+        color: $R100;
+        img {
+            filter: $red-100-icon;
+        }
+    }
+
+    &:active {
+        border-color: $R400;
+        color: $R400;
+        img {
+            filter: $red-400-icon;
+        }
+    }
+}
+
+.table-action-btn {
+    width: 100%;
+    padding: 12px 20px;
+    color: $blue-300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    transition: all ease-out 300ms;
+    img {
+        filter: $blue-400-icon;
+    }
+
+    &:hover {
+        background-color: $blue-50;
+        img {
+            filter: $blue-400-icon;
+        }
+    }
+
+    &:active {
+        background-color: $gray-200;
+        color: $blue-300;
+        img {
+            filter: $gray-900-icon;
+        }
+    }
+}
+
+.circle-btn {
+    width: 30px;
+    height: 30px;
+    background-color: $primary-500;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 6px rgba(18, 28, 43, 0.22));
+    display: grid;
+    place-items: center;
+}
+
+.select__all-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: $blue-900;
+}

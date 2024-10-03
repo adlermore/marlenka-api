@@ -1,0 +1,107 @@
+/* typography.scss */
+
+.h1_auth_bold {
+    font-family: var(--bold-font-family);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.h1_bold {
+    font-family: var(--bold-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.h2_medium {
+    font-family: var(--medium-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.h2_bold {
+    font-family: var(--bold-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.body_1_regular {
+    font-family: var(--regular-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body_1_medium {
+    font-family: var(--medium-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.body_1_bold {
+    font-family: var(--bold-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.body_2_regular {
+    font-family: var(--medium-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.body_2_medium {
+    font-family: var(--medium-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.body_2_medium_underline {
+    font-family: var(--medium-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration-line: underline;
+}
+
+.body_2_bold {
+    font-family: var(--bold-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.caption_1_regular {
+    font-family: var(--regular-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.caption_1_medium {
+    font-family: var(--medium-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.caption_1_bold {
+    font-family: var(--bold-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.small_text_regular {
+    font-family: var(--regular-font-family);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}

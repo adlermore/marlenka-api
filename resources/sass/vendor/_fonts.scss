@@ -1,0 +1,59 @@
+// English fonts
+@font-face {
+    font-family: "THICCCBOI-Regular";
+    src: url("/assets/fonts/thicccboi/THICCCBOI-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "THICCCBOI-Medium";
+    src: url("/assets/fonts/thicccboi/THICCCBOI-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "THICCCBOI-Bold";
+    src: url("/assets/fonts/thicccboi/THICCCBOI-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+
+// Armenian fonts
+
+@font-face {
+    font-family: "Montserratarm-Regular";
+    src: url("/assets/fonts/montserratarm/Montserratarm-Regular.otf")
+        format("otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserratarm-Medium";
+    src: url("/assets/fonts/montserratarm/Montserratarm-Medium.otf")
+        format("otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserratarm-Bold";
+    src: url("/assets/fonts/montserratarm/Montserratarm-Bold.otf")
+        format("otf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html[lang="en"] {
+    --regular-font-family: "THICCCBOI-Regular", sans-serif;
+    --medium-font-family: "THICCCBOI-Medium", sans-serif;
+    --bold-font-family: "THICCCBOI-Bold", sans-serif;
+}
+
+html[lang="am"] {
+    --regular-font-family: "Montserratarm-Regular", sans-serif;
+    --medium-font-family: "Montserratarm-Medium", sans-serif;
+    --bold-font-family: "Montserratarm-Bold", sans-serif;
+}

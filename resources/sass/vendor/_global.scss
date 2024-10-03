@@ -1,0 +1,238 @@
+@import "./variables";
+@import "./icons";
+
+.page-table {
+    &__head {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 20px;
+        &-right {
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+        }
+    }
+    &__head-allProducts {
+        display: flex;
+        column-gap: 16px;
+    }
+    &__container {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    &__content {
+        max-width: 500px;
+        width: 100%;
+        height: 50vh;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// alert modal components
+
+.alert-right-modal {
+    &-body {
+        padding: 20px 20px 20px 76px;
+        height: 90vh;
+    }
+    &-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        max-height: 85vh;
+        overflow: auto;
+
+        height: 100%;
+
+        padding-right: 50px;
+
+        &::-webkit-scrollbar {
+            width: 6px;
+            margin-top: 30px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: $gray-200;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 20px;
+            background-color: $blue-200;
+        }
+    }
+    &-footer {
+        width: 100%;
+        margin-top: 15px;
+        button {
+            width: 100%;
+        }
+    }
+    &-wrap {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+
+    &-title {
+        color: $blue-900;
+    }
+}
+
+.alert-modal-max-content {
+    width: max-content;
+}
+
+.table-action {
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    width: max-content;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(112, 134, 170, 0.22);
+    &-btn {
+        &:first-of-type {
+            border-radius: 8px 8px 0 0;
+        }
+        &:last-of-type {
+            border-radius: 0 0 8px 8px;
+        }
+    }
+}
+
+.upload-images {
+    &__wrapper {
+        padding: 6px 0;
+        border-bottom: 1px solid $gray-300;
+
+        display: grid;
+        grid-template-columns: repeat(4, 117px);
+        grid-auto-rows: 126px;
+        grid-gap: 10px;
+    }
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px dashed $blue-200;
+        border-radius: 12px;
+        padding: 10px 6px;
+        cursor: pointer;
+
+        grid-column: 1 / 3;
+
+        .drop-text {
+            color: $blue-400;
+            margin-bottom: 4px;
+        }
+        .browse-text {
+            color: $B100;
+        }
+        .support-text {
+            color: $blue-200;
+        }
+    }
+
+    &__photo {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        box-shadow: 0 0 2px rgba(112, 134, 170, 0.22);
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+            object-fit: contain;
+        }
+
+        &-remove {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+.product-action-item {
+    width: 100%;
+    padding: 16px 40px;
+    border-radius: 6px;
+    border: 1px solid $blue-50;
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 12px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    &__name {
+        color: $blue-400;
+    }
+
+    img {
+        filter: $blue-400-icon;
+    }
+
+    &:hover {
+        border: 1px solid $primary-100;
+        .product-action-item__name {
+            color: $primary-200;
+        }
+        img {
+            filter: $primary-200-icon;
+        }
+    }
+
+    &:active,
+    &__active {
+        border: 1px solid $primary-500;
+        .product-action-item__name {
+            color: $primary-500;
+        }
+        img {
+            filter: $primary-500-icon;
+        }
+    }
+}
+.alert-modal-subtitle {
+    color: $blue-900;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $blue-50;
+}
+
+.max-line-count {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.green-text{
+    color: red !important;
+}
